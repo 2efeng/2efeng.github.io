@@ -3,10 +3,9 @@
 - name: 小毛驴
   url: http://www.kiangkiangkiang.cn
 
-
 ###vip影院
 - name: 凉瓜铺影院
-  url: http://v.kiangkiangkiang.cn
+  url: http://vip.kiangkiangkiang.cn
 
 - name: 超级白VIP解析
-  url: http://vip.kiangkiangkiang.cn
+  url: http://vip.kiangkiangkiang.cn:83
