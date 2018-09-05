@@ -26,7 +26,7 @@ keywords: JPA, MySQL, SQLserver
 ##### 1. 在Idea中创建maven项目 
 步骤......（此处省略很多字很多图）最终项目结构如图
 
-![1536117297115](..\..\images\Spring\Spring-Data-JPA\jpa-1-1.png)
+![jpa-1-1](/images/Spring/Spring-Data-JPA/jpa-1-1.png)
 
 
 
@@ -180,7 +180,7 @@ public interface PersonDao extends PagingAndSortingRepository<Person, Integer>, 
 
 这样就可以，是不是很简单，什么都不用写，这个接口也不需要去实现里面的方法，直接就能使用下面这些方法。
 
-![1536119806597](..\..\images\Spring\Spring-Data-JPA\jpa-4-1.png)
+![jpa-4-1](/images/Spring/Spring-Data-JPA/jpa-4-1.png)
 
 
 
