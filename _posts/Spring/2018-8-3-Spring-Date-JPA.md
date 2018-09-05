@@ -23,14 +23,14 @@ keywords: JPA, MySQL, SQLserver
 
 
 ## 开始
-##### 1. 在Idea中创建maven项目 
+### 1. 在Idea中创建maven项目 
 步骤......（此处省略很多字很多图）最终项目结构如图
 
 ![jpa-1-1](/images/Spring/Spring-Data-JPA/jpa-1-1.png)
 
 
 
-##### 2. 创建好项目之后，我们需要在pom.xml文件添加spring-data-jpa的依赖
+### 2. 创建好项目之后，我们需要在pom.xml文件添加spring-data-jpa的依赖
 
 ``` xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -97,7 +97,7 @@ keywords: JPA, MySQL, SQLserver
 
 
 
-##### 3. 在entity包下，新建Persion.java  
+### 3. 在entity包下，新建Persion.java  
 
 ```java
 package com.hzf.jpa.entity;
@@ -155,7 +155,7 @@ public class Person {
 
 
 
-##### 4. 在dao包下，创建PersonDao.java，这一步是最简单的
+### 4. 在dao包下，创建PersonDao.java，这一步是最简单的
 
 ```java
 package com.hzf.jpa.dao;
@@ -199,7 +199,7 @@ public interface PersonDao extends PagingAndSortingRepository<Person, Integer>, 
 
 
 
-##### 5. 在service包下创建PersonService.java
+### 5. 在service包下创建PersonService.java
 
 ```java
 package com.hzf.jpa.service;
@@ -262,7 +262,7 @@ public class PersonService {
 
 
 
-##### 6. 配置文件
+### 6. 配置文件
 
 - applicationContext.xml
 
@@ -413,7 +413,7 @@ public class PersonService {
 
   
 
-##### 7.代码已经写完了，建个App.java来测一下吧
+### 7.代码已经写完了，建个App.java来测一下吧
 
 ```java
 package com.hzf.jpa;
@@ -452,7 +452,7 @@ String applicationContext = System.getProperty("user.dir") +
 ApplicationContext context = new FileSystemXmlApplicationContext(applicationContext);
 ```
 
-
+## 结束
 
 ---------
 
