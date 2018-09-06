@@ -12,7 +12,7 @@ keywords: JPA, MySQL, SQLserver
 
 ## 说明
 简单了解一下JPA
-> **JPA : ** Java Persistence API的简称，Java持久层API，是一种ORM规范。
+> **JPA : **  Java Persistence API的简称，Java持久层API，是一种ORM规范。
 
 什么是Spring Data JPA，来看看官网的定义
 

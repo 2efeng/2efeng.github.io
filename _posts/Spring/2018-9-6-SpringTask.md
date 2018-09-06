@@ -113,6 +113,8 @@ public class TimerTask {
 }
 ```
 
+**源码** [戳这里](https://github.com/FengHelloWorld/JavaDemo/tree/master/TaskDemo/FirstDemo)	
+
 
 
 ### 2 . 第二种
@@ -148,6 +150,8 @@ public class TimerTask {
 
     <task:scheduled-tasks>
         <task:scheduled ref="timerTask" method="task" cron="0/1 * * * * ?"/>
+        <!--<task:scheduled ref="timerTask" method="task" cron="0/1 * * * * ?"/>-->
+        <!--可以添加多个task-->
     </task:scheduled-tasks>
 
 </beans>
@@ -181,6 +185,8 @@ public class TimerTask {
    
 }
 ```
+
+**源码** [戳这里](https://github.com/FengHelloWorld/JavaDemo/tree/master/TaskDemo/SecondDemo)	
 
 ## 二、基于注解
 
@@ -247,7 +253,7 @@ public class TimerTask {
 }
 ```
 
-
+**源码** [戳这里](https://github.com/FengHelloWorld/JavaDemo/tree/master/TaskDemo/ThirdDemo)	
 
 ## 运行结果
 
