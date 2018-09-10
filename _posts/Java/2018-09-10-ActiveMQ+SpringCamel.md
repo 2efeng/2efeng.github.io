@@ -6,6 +6,10 @@ description: ActiveMQ和Spring Camel
 keywords: ActiveMQ, MQ, Camel
 ---
 
+ActiveMQ配合SpringCamel一起使用，很哇塞，可以省去很多代码。
+
+
+
 ## 准备
 
 ### 1. ActiveMQ
