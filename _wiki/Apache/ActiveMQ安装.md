@@ -30,20 +30,44 @@ MQ是消息中间件，是一种在分布式系统中应用程序借以传递消
 
 - [下载地址](http://activemq.apache.org/download.html)
 - 选择最新版本
-
 ![1536559525598](/images/wiki/apache/ActiveMQ/downloadPage1.png)
+- 里面有linux和windows的压缩包，选择需要的下载就行
+![1536560134163](/images/wiki/apache/ActiveMQ/downloadPage2.png)
 
-![1536559666634](/images/wiki/apache/ActiveMQ/downloadPage2.png)
+
 
 ### 2. Liunx下安装
 
+- 将文件下载好，上传到linux系统
+- 解压： tar -zxvf apache-activemq-5.15.5-bin.tar.gz 
+- 然后就可以了，进入bin目录
+  - 启动：./activemq start
+  - 重启：./activemq restart
+  - 关闭：./activemq stop
+  - 状态：./activemq status
+- 进入后台
+  - 链接：http://localhost:8681/admin
 
+  - 用户名：admin
 
+  - 密码：admin
 
+    ![1536560660865](/images/wiki/apache/ActiveMQ/activemq-indexpage.png)
 
 
 
 ### 3. Windows下安装
 
+windows下的安装跟liunx的一模一样
 
-
+- 下载文件
+- 解压
+- 进入安装目录的bin目录
+  - 启动：./activemq start
+  - 重启：./activemq restart
+  - 关闭：./activemq stop
+  - 状态：./activemq status
+- 进入后台
+  - 链接：http://localhost:8681/admin
+  - 用户名：admin
+  - 密码：admin
