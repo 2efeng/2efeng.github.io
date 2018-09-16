@@ -183,7 +183,6 @@ export HADOOP_HDFS_HOME=$HADOOP_HOME
 export YARN_HOME=$HADOOP_HOME
 export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native
 export PATH=$PATH:$HADOOP_HOME/sbin:$HADOOP_HOME/bin
-
 ```
 
 保存后，重新加载`~/.bashrc`，使其生效
@@ -262,7 +261,7 @@ cd /usr/hadoop/hadoop/
 
 
 
-## 四、测试
+# 四、测试
 
 hadoop启动和停止的命令
 
