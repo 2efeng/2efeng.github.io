@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
+{% if page.music-id %}
+  {% include cloud-music.html %}
+{% endif %} 
+{{ content }}
 <section class="collection-head small geopattern" data-pattern-id="{{ page.title | truncate: 15, ''}}">
 <div class="container">
   <div class="columns">
@@ -43,7 +47,7 @@ layout: default
     {% include sidebar-search.html %}
     {% include sidebar-qrcode.html %}
     {% include sidebar-post-nav.html %}
-  </div>
+    </div>
 </div>
 </section>
 <!-- /section.content -->
