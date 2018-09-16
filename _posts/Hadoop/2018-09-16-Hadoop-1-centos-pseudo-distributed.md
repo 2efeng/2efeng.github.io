@@ -269,7 +269,7 @@ hadoop启动和停止的命令
 cd $HADOOP_HOME
 ./sbin/start-all.sh
 ./sbin/stop-all.sh
-./sbin/restart.sh
+./sbin/restart-all.sh
 ```
 
 启动后，`jps`查看进程是否启动成功，下面的进程都在，则说明hadoop启动成功
