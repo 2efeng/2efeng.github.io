@@ -4,7 +4,6 @@ title: Hadoop（一）—— Centos7下Hadoop伪分布式安装
 categories: Hadoop
 description: 在Centos7下Hadoop伪分布式安装
 keywords: Hadoop, Centos7
-music-id： 440208476
 ---
 
 ![1537073767297](/images/Hadoop/1/000.png)
