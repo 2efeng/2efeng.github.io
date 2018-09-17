@@ -6,7 +6,7 @@ description: 在Centos7下Hadoop伪分布式安装
 keywords: Hadoop, Centos7
 ---
 
-![1537073767297](/images/Hadoop/1/000.png)
+![1537073767297](/images/Hadoop/hadoop.jpg)
 
 # 一、准备
 
