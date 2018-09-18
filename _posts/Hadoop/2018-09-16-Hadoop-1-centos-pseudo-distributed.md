@@ -303,4 +303,3 @@ systemctl disable firewalld
 firewall-cmd --zone=public --add-port=50070/tcp --permanent
 firewall-cmd --reload
 ```
-
