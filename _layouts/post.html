@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+{% if page.music-id %}
+    {% include cloud-music.html %}
+{% endif %} 
 <section class="collection-head small geopattern" data-pattern-id="{{ page.title | truncate: 15, ''}}">
 <div class="container">
   <div class="columns">
