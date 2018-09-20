@@ -52,7 +52,7 @@ keywords: Hadoop, java，hdfs
 
 ### 2. HDFSUtil.java
 
-> **提示：** 以下所有方法，只要是HDFS文件路径的，都只能使用`/` ，不能使用`\\`，并且需要在路径开头要带`/`，例如`String hdfs= "/path/filename.txt"`。
+> 提示： 以下所有方法，只要是HDFS文件路径的，都只能使用`/` ，不能使用`\\`，并且需要在路径开头要带`/`，例如`String hdfs= "/path/filename.txt"`。
 
 #### ① 实例化FileSystem
 
@@ -282,5 +282,5 @@ public static boolean isExist(String hdfsPath) throws IOException {
 
 ## 三、异常处理
 
-记录在使用过程中出现过的异常，已经解决方法
+记录在使用过程中出现过的异常，和其解决方法。（长期更新......）
 
