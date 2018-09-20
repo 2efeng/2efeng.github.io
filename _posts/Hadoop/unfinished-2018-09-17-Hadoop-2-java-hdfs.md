@@ -279,3 +279,8 @@ public static boolean isExist(String hdfsPath) throws IOException {
     }
 }
 ```
+
+## 三、异常处理
+
+记录在使用过程中出现过的异常，已经解决方法
+
