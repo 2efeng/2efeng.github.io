@@ -133,7 +133,7 @@ mv /usr/hadoop/hadoop-2.8.0 /usr/hadoop/hadoop
 	</property>    
 	<property>
 		<name>hadoop.tmp.dir</name>
-        <value>/var/log/hadoop/tmp</value>
+        	<value>/var/log/hadoop/tmp</value>
 	</property>    
 </configuration>
 ```
@@ -196,56 +196,56 @@ cp mapred-site.xml.template mapred-site.xml
 		<value>master</value>
 	</property>    
 	<property>
-        <name>yarn.resourcemanager.address</name>
-        <value>${yarn.resourcemanager.hostname}:8032</value>
+        	<name>yarn.resourcemanager.address</name>
+       		<value>${yarn.resourcemanager.hostname}:8032</value>
 	</property>
 	<property>
-        <name>yarn.resourcemanager.scheduler.address</name>
-        <value>${yarn.resourcemanager.hostname}:8030</value>
+        	<name>yarn.resourcemanager.scheduler.address</name>
+        	<value>${yarn.resourcemanager.hostname}:8030</value>
 	</property>
 	<property>
-        <name>yarn.resourcemanager.webapp.address</name>
-        <value>${yarn.resourcemanager.hostname}:8088</value>
+        	<name>yarn.resourcemanager.webapp.address</name>
+        	<value>${yarn.resourcemanager.hostname}:8088</value>
 	</property>
 	<property>
-        <name>yarn.resourcemanager.webapp.https.address</name>
-        <value>${yarn.resourcemanager.hostname}:8090</value>
+        	<name>yarn.resourcemanager.webapp.https.address</name>
+        	<value>${yarn.resourcemanager.hostname}:8090</value>
 	</property>
 	<property>
-        <name>yarn.resourcemanager.resource-tracker.address</name>
-        <value>${yarn.resourcemanager.hostname}:8031</value>
+        	<name>yarn.resourcemanager.resource-tracker.address</name>
+        	<value>${yarn.resourcemanager.hostname}:8031</value>
 	</property>
 	<property>
-        <name>yarn.resourcemanager.admin.address</name>
-        <value>${yarn.resourcemanager.hostname}:8033</value>
+        	<name>yarn.resourcemanager.admin.address</name>
+        	<value>${yarn.resourcemanager.hostname}:8033</value>
 	</property>
 	<property>
-        <name>yarn.nodemanager.local-dirs</name>
-        <value>/data/hadoop/yarn/local</value>
+        	<name>yarn.nodemanager.local-dirs</name>
+        	<value>/data/hadoop/yarn/local</value>
 	</property>
 	<property>
-        <name>yarn.log-aggregation-enable</name>
-        <value>true</value>
+        	<name>yarn.log-aggregation-enable</name>
+        	<value>true</value>
 	</property>
 	<property>
-        <name>yarn.nodemanager.remote-app-log-dir</name>
-        <value>/data/tmp/logs</value>
+        	<name>yarn.nodemanager.remote-app-log-dir</name>
+        	<value>/data/tmp/logs</value>
 	</property>
 	<property> 
 		<name>yarn.log.server.url</name> 
 		<value>http://master:19888/jobhistory/logs/</value>
 		<description>URL for job history server</description>
-    </property>
-    <property>
+    	</property>
+    	<property>
 		<name>yarn.nodemanager.vmem-check-enabled</name>
-        <value>false</value>
+        	<value>false</value>
 	</property>
 	<property>
-        <name>yarn.nodemanager.aux-services</name>
-        <value>mapreduce_shuffle</value>
+        	<name>yarn.nodemanager.aux-services</name>
+        	<value>mapreduce_shuffle</value>
 	</property>
 	<property>
-        <name>yarn.nodemanager.aux-services.mapreduce.shuffle.class</name>
+        	<name>yarn.nodemanager.aux-services.mapreduce.shuffle.class</name>
 		<value>org.apache.hadoop.mapred.ShuffleHandler</value>
 	</property>
 </configuration>
@@ -339,6 +339,7 @@ start-all.sh
 ```
 
 集群启动之后，在主节点master，子节点slave1，slave2分别执行jps，出现如下图所示的信息，说明集群启动没问题。
+
 ![1541003810556](/images/Hadoop/3/jps.png)
 
 相关命令
