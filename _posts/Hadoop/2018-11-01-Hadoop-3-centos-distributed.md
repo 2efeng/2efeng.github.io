@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hadoop（四）—— Centos7下Hadoop完全分布式集群安装
+title: Hadoop（三）—— Centos7下Hadoop完全分布式集群安装
 categories: Hadoop
 description: 在Centos7下Hadoop分布式安装
 keywords: Hadoop, Centos7，分布式
