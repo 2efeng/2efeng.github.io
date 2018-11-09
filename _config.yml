@@ -94,8 +94,8 @@ gitment:
     owner: FengHelloWorld
     repo: blog-comments
     oauth:
-        client_id: aa1a178896fb06b6db45
-        client_secret: 6b870f9cc692bdbf541968b267496dc89fd9d6fa
+        client_id: d34e13d8f1a07cf70ae7
+        client_secret: 2078b07f85b78a4e700184cbdb88c57186ca15f9
 # https://github.com/gitalk/gitalk#install
 
 # 在使用其它评论组件时可点击显示 Disqus
