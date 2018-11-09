@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://www.kiangkiangkiang.cn
+url: https://www.kiangkiangkiang.cn
 date_format: "ordinal"
 title: 硪有一只小毛驴
 subtitle: "无bug，不生活"
