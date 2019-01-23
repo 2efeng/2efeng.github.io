@@ -6,7 +6,7 @@ url: https://2efeng.com
 date_format: "ordinal"
 title: 硪有一只小毛驴
 subtitle: "无bug，不生活"
-description: "疯子的个人博客"
+description: "疯子の博客"
 keywords: kiang, feng, Huang Zefeng, 疯子
 timezone: Asia/Shanghai
 encoding: "utf-8"
@@ -18,7 +18,7 @@ side_bar_repo_limit: 5
 author: Huang Zefeng
 organization:
 organization_url:
-github_username: FengHelloWorld
+github_username: 2efeng
 location: Haifeng, China
 email: hzf978865104@foxmail.com
 
