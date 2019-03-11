@@ -91,7 +91,7 @@ disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: FengHelloWorld
+    owner: 2efeng
     repo: blog-comments
     oauth:
         client_id: 938e0b9c63e31638e771
