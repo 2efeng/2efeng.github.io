@@ -95,7 +95,7 @@ gitment:
     repo: blog-comments
     oauth:
         client_id: 938e0b9c63e31638e771
-        client_secret: 42437d45fc6907269e2d7ecb214566679bc274b2
+        client_secret: 3e88f818105846f223aad646d51b355734b6de29
 # https://github.com/gitalk/gitalk#install
 
 # 在使用其它评论组件时可点击显示 Disqus
