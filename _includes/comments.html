@@ -88,8 +88,10 @@
         </script>
     {% when 'gitalk' %}
         <div id="gitalk-container"></div>
-        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-        <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<!--         <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+        <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script> -->
+<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
+<script src="https://jjeejj.github.io/js/gitment.js"></script>
         <script>
         var gitalk = new Gitalk({
             id: '{{ page.url | truncate: 50, '' }}',
