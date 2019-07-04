@@ -83,6 +83,7 @@ repository: 2efeng/2efeng.github.io
 #      Comments    #
 # ---------------- #
 # https://imsun.net/posts/gitment-introduction/
+comments_provider: gitment
 gitment:
     owner: 2efeng
     repo: blog-comments
