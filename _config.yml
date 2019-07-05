@@ -4,13 +4,13 @@
 baseurl:
 url: https://2efeng.com
 date_format: "ordinal"
-title: 我不是修电脑的
+title: 这城市那么空
 subtitle: "无bug，不生活"
-description: "疯子の博客"
+description: ""
 keywords: kiang, feng, Huang Zefeng, 疯子
 timezone: Asia/Shanghai
 encoding: "utf-8"
-side_bar_repo_limit: 5
+side_bar_repo_limit: 0
 
 # ---------------- #
 #      Author      #
