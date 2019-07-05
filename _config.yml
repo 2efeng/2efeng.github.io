@@ -10,7 +10,7 @@ description: ""
 keywords: kiang, feng, Huang Zefeng, 疯子
 timezone: Asia/Shanghai
 encoding: "utf-8"
-side_bar_repo_limit: 0
+side_bar_repo_limit: 3
 
 # ---------------- #
 #      Author      #
@@ -20,7 +20,7 @@ organization:
 organization_url:
 github_username: 2efeng
 location: Haifeng
-email: hzf978865104@foxmail.com
+email: zefeng233@gmail.com
 
 # ---------------- #
 #    Navigation    #
