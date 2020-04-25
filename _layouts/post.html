@@ -52,7 +52,21 @@ gotop: false
     </div>
     {% comment %}
     <div class="comment">
-      {% include comments.html %}
+      <div id="container"></div>
+      <link rel="stylesheet" href="https://billts.site/extra_css/gitment.css">
+      <script src="https://billts.site/js/gitment.js"></script>
+      <script>
+        var gitment = new Gitment({
+            id: '{{ page.title }}',
+            owner: '2efeng',
+            repo: 'blog-comments',
+            oauth: {
+                client_id: '938e0b9c63e31638e771',
+                client_secret: '3e88f818105846f223aad646d51b355734b6de29',
+            },
+        })
+        gitment.render('container')
+      </script>
     </div>
     {% endcomment %}
   </div>
@@ -61,6 +75,8 @@ gotop: false
     {% include sidebar-post-nav.html %}
   </div>
 </div>
+
+
 </section>
 <!-- /section.content -->
-<script src="/assets/js/fixed_title.js"></script>
+

@@ -12,7 +12,7 @@ url                 : https://2efeng.github.io
 title               : 2efeng
 name                : 2efeng's blog
 subtitle            : "Chinese by birth, Programmer by choice"
-description         : "The personal blog of zohar, a ascetic on the road to programming."
+description         : "The personal blog of 2efeng"
 repository          : 2efeng/2efeng.github.io
 keywords            : 2efeng, 黄泽丰
 date_format         : "ordinal"
@@ -28,9 +28,8 @@ email               : hzf978865104@foxmail.com
 markdown            : kramdown
 kramdown:
   input             : GFM
-  syntax_highlighter_opts:
-    disable: true
-# highlighter         : rouge
+highlighter: rouge
+
 paginate            : 12
 lsi                 : false
 quiet               : false
@@ -39,15 +38,15 @@ excerpt_separator   : "\n\n"                # 摘录的分隔符
 permalink           : /posts/:title.html    # 博文发布的 URL，伪静态
 plugins:
   - jekyll-github-metadata                  # github 元信息
-  # - rouge                                   # Jekyll 的语法高亮在 Jekyll 3.0 以上默认使用的是 Rouge
+  - rouge                                   # Jekyll 的语法高亮在 Jekyll 3.0 以上默认使用的是 Rouge
   - jekyll-octicons                         # 支持 octions 图标
   - jekyll-paginate                         # 分页
   - jekyll-feed                             # 自动生成 SSR 源
   - jemoji                                  # 解析 emoji
   - jekyll-sitemap                          # 自动生成 sitemap
   - jekyll-seo-tag                          # 自动 SEO 头信息生成
-#   - jekyll-html-pipeline                  #
-#   - jekyll-mentions                       # 用于 @github 用户
+  - jekyll-html-pipeline                    #
+  - jekyll-mentions                         # 用于 @github 用户
 collections:
   wiki:
     output          : true
@@ -83,11 +82,25 @@ navs:
 subscribe_rss       : /feed.xml
 
 # 评论模块
+comments_provider: gitalk
+
+disqus:
+    username:
+
+gitment:
+    owner: 2efeng
+    repo: blog-comments
+    oauth:
+        client_id: 938e0b9c63e31638e771
+        client_secret: 3e88f818105846f223aad646d51b355734b6de29
+
 gitalk:
-   owner             : 2efeng
-   repo              : blog-comments
-   clientID          : 938e0b9c63e31638e771
-   clientSecret      : 3e88f818105846f223aad646d51b355734b6de29
+    owner: 2efeng
+    repo: blog-comments
+    clientID: 938e0b9c63e31638e771
+    clientSecret: 3e88f818105846f223aad646d51b355734b6de29
+
+lazy_load_disqus : false
 
 # 站内搜索
 simple_jekyll_search:
@@ -102,8 +115,8 @@ leancloud:
   ip_class_name: visiting_ip
 
 # # 谷歌分析
-# google:
-#   analytics_id      : UA-146513129-1
+google:
+  analytics_id      : UA-146513129-1
 
 # # 备案号
 # beian               : 粤ICP备18146252号-1

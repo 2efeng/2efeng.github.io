@@ -2,7 +2,7 @@
 layout: post
 title: Hadoop（一）—— Centos7下Hadoop伪分布式安装
 categories: Hadoop
-permalink: Hadoop, Centos7
+permalink: Centos7下Hadoop伪分布式安装
 published: true
 ---
 
