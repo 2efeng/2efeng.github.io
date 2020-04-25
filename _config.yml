@@ -22,7 +22,7 @@ side_bar_repo_limit : 3
 
 author              : 2efeng
 github_username     : 2efeng
-location            : Guangzhou, China
+location            : Huizhou, China
 email               : hzf978865104@foxmail.com
 
 markdown            : kramdown
@@ -84,10 +84,10 @@ subscribe_rss       : /feed.xml
 
 # 评论模块
 gitalk:
-   owner             : zoharyips
+   owner             : 2efeng
    repo              : blog-comments
-   clientID          : 4f7905fa91963e1cb585
-   clientSecret      : 860aa59b9dac0ff81e468c3a67bec5a052e8b8ec
+   clientID          : 938e0b9c63e31638e771
+   clientSecret      : 3e88f818105846f223aad646d51b355734b6de29
 
 # 站内搜索
 simple_jekyll_search:

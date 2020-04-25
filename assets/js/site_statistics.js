@@ -98,13 +98,11 @@ function updateCount(Counter, pageTitle, siteTitle) {
           $('#site_statistics').text('Site access: ' + counter.get('visited_times'));
         },
         error: function(counter, error) {
-          $('#site_statistics').text('123');
           console.error('Failed to save Visitor num, with error message: ' + error.message);
         }
       });
     },
     error: function(error) {
-      $('#site_statistics').text('123');
       console.log('更新站点总统计数失败:' + error.code + " " + error.message);
     }
   });
