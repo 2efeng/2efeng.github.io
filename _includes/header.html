@@ -21,8 +21,8 @@
     {% else %}
       {% assign description = site.description %}
     {% endif %}
-    <!-- <meta name="description" content="{{ description }}"/> -->
-    <!-- <meta name="og:description" content="{{ description }}"/> -->
+    <meta name="description" content="{{ description }}"/>
+    <meta name="og:description" content="{{ description }}"/>
 
     <!-- 页面关键词：务必确保 site.keywords 值存在，以英文逗号分割 -->
     {% if page.keywords %} 
@@ -62,7 +62,7 @@
 
     <!-- 网站信息 -->
     <link rel="shortcut icon" href="/favicon.jpg" />
-    <link rel="canonical" href="{{ page.url | prepend: site.url }}" />
+    <!-- <link rel="canonical" href="{{ page.url | prepend: site.url }}" /> -->
     <link rel="alternate" type="application/atom+xml" href="/feed.xml" title="{{ site.title }}">
     <!-- 全站所需 css 文件 -->
     <link rel="stylesheet" href="https://cdn.bootcss.com/Primer/2.7.0/css/primer.css">
@@ -87,6 +87,10 @@
     <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="/assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/live2d-widget@3.0.4/lib/L2Dwidget.min.js"></script>
+    <script type="text/javascript">
+        L2Dwidget.init();
+    </script>
   </head>
   <body class="{{ page.class }}" data-mz="{{ page.class }}">
     <header class="site-header">

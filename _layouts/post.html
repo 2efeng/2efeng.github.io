@@ -68,6 +68,24 @@ gotop: false
         })
         gitalk.render('gitalk-container')
       </script> -->
+
+      <div id="container"></div>
+      <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+      <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script> 
+      <!-- <link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
+      <script src="https://jjeejj.github.io/js/gitment.js"></script> -->
+      <script>
+        var gitment = new Gitment({
+            id: '{{ page.url | truncate: 50, '' }}',
+            owner: '{{ site.gitment.owner }}',
+            repo: '{{ site.gitment.repo }}',
+            oauth: {
+                client_id: '{{ site.gitment.oauth.client_id }}',
+                client_secret: '{{ site.gitment.oauth.client_secret }}',
+            },
+        })
+        gitment.render('container')
+      </script> 
     </div>
     {% endcomment %}
   </div>
@@ -80,4 +98,5 @@ gotop: false
 
 </section>
 <!-- /section.content -->
+<script src="/assets/js/fixed_title.js"></script>
 
