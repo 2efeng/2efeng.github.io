@@ -52,21 +52,22 @@ gotop: false
     </div>
     {% comment %}
     <div class="comment">
-      <div id="container"></div>
-      <link rel="stylesheet" href="https://billts.site/extra_css/gitment.css">
-      <script src="https://billts.site/js/gitment.js"></script>
-      <script>
-        var gitment = new Gitment({
+      <div id="gitalk-container"></div>
+        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+        <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+        <script>
+        var gitalk = new Gitalk({
             id: '{{ page.title }}',
-            owner: '2efeng',
+            clientID: '938e0b9c63e31638e771',
+            clientSecret: '3e88f818105846f223aad646d51b355734b6de29',
             repo: 'blog-comments',
-            oauth: {
-                client_id: '938e0b9c63e31638e771',
-                client_secret: '3e88f818105846f223aad646d51b355734b6de29',
-            },
+            owner: '2efeng',
+            admin: ['2efeng'],
+            labels: ['gitment'],
+            perPage: 50,
         })
-        gitment.render('container')
-      </script>
+        gitalk.render('gitalk-container')
+        </script>
     </div>
     {% endcomment %}
   </div>
