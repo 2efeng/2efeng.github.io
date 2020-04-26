@@ -21,8 +21,8 @@
     {% else %}
       {% assign description = site.description %}
     {% endif %}
-    <meta name="description" content="{{ description }}"/>
-    <meta name="og:description" content="{{ description }}"/>
+    <meta name="description" content="{{ title }}"/>
+    <meta name="og:description" content="{{ title }}"/>
 
     <!-- 页面关键词：务必确保 site.keywords 值存在，以英文逗号分割 -->
     {% if page.keywords %} 
