@@ -61,23 +61,23 @@ collections:
 navs:
   -
     href            : /
-    label           : 首页
+    label           : Home
 
   -
     href            : /categories/
-    label           : 分类
+    label           : Categories
 
   -
     href            : /wiki/
-    label           : 维基
+    label           : Wiki
 
   -
     href            : /links/
-    label           : 链接
+    label           : Links
 
   -
     href            : /about/
-    label           : 关于
+    label           : About
 
 subscribe_rss       : /feed.xml
 
