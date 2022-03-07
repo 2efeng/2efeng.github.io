@@ -4,6 +4,7 @@ title: Hadoop（一）—— Centos7下Hadoop伪分布式安装
 categories: Hadoop
 permalink: Centos7下Hadoop伪分布式安装
 published: true
+keywords: Centos7下Hadoop伪分布式安装,Centos7,Hadoop,伪分布式安装
 ---
 
 ![1537073767297](/images/Hadoop/hadoop.jpg)
